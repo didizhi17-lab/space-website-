@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore the Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- STARFIELD BACKGROUND -->
+  <canvas id="stars"></canvas>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Explore the Universe</h1>
+      <p>Discover planets, stars, and the mysteries beyond.</p>
+      <div class="hero-buttons">
+        <a href="#planets" class="btn">Start Exploring</a>
+        <a href="#news" class="btn secondary">Latest Discoveries</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PLANETS SECTION -->
+  <section id="planets" class="section">
+    <h2>Featured Celestial Objects</h2>
+    <input type="text" id="searchInput" placeholder="Search planets...">
+    <div class="card-grid" id="planetCards">
+      <div class="card" data-name="Mars">
+        <img src="images/mars.jpg" alt="Mars">
+        <h3>Mars</h3>
+        <p>The red planet with a history of water.</p>
+      </div>
+      <div class="card" data-name="Jupiter">
+        <img src="images/jupiter.jpg" alt="Jupiter">
+        <h3>Jupiter</h3>
+        <p>The solar system’s largest planet.</p>
+      </div>
+      <div class="card" data-name="Exoplanet">
+        <img src="images/exoplanet.jpg" alt="Exoplanet">
+        <h3>Exoplanets</h3>
+        <p>Worlds beyond our star.</p>
+      </div>
+      <div class="card" data-name="Nebula">
+        <img src="images/nebula.jpg" alt="Nebula">
+        <h3>Nebulae</h3>
+        <p>Star-forming regions of cosmic gas and dust.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSIONS SECTION -->
+  <section id="missions" class="section dark">
+    <h2>Space Missions</h2>
+    <div class="card-grid">
+      <div class="card dark-card">
+        <h3>Artemis Program</h3>
+        <p>Returning humans to the Moon.</p>
+      </div>
+      <div class="card dark-card">
+        <h3>James Webb Space Telescope</h3>
+        <p>Looking deeper into the universe than ever before.</p>
+      </div>
+      <div class="card dark-card">
+        <h3>Voyager 1 & 2</h3>
+        <p>Exploring the interstellar frontier.</p>
+      </div>
+      <div class="card dark-card">
+        <h3>SpaceX Starship</h3>
+        <p>The future of deep-space travel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="section">
+    <h2>Deep Space Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/mars.jpg" alt="Mars" class="lightbox">
+      <img src="images/jupiter.jpg" alt="Jupiter" class="lightbox">
+      <img src="images/exoplanet.jpg" alt="Exoplanet" class="lightbox">
+      <img src="images/nebula.jpg" alt="Nebula" class="lightbox">
+    </div>
+  </section>
+
+  <!-- NEWS SECTION -->
+  <section id="news" class="section dark">
+    <h2>Latest Discoveries</h2>
+    <div class="news-grid">
+      <article class="news-item">
+        <h3>New Exoplanet in the Habitable Zone</h3>
+        <p>A newly detected world may support liquid water.</p>
+      </article>
+      <article class="news-item">
+        <h3>Webb Finds Ancient Galaxy</h3>
+        <p>Light that has traveled for more than 13 billion years.</p>
+      </article>
+      <article class="news-item">
+        <h3>Upcoming Launches</h3>
+        <p>Stay updated with rocket launch schedules.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <h2>About This Project</h2>
+    <p>This space website was created to inspire curiosity and help people explore the cosmos through beautiful visuals and simple explanations.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Explore the Universe — All images credit to respective creators.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
